@@ -39,3 +39,8 @@ if (process.NODE_ENV === 'dev') {
 // mongo "mongodb+srv://cluster0.gejz2.mongodb.net/<dbname>" --username mongodb
 
 process.env.URLDB = urlDB;
+
+//========
+//  google ID
+//========
+process.env.CLIENT_ID = process.env.CLIENT_ID || '454555035943-n9l3f4ub0q0heonh6lu45i2tq8t7uc4u.apps.googleusercontent.com'
